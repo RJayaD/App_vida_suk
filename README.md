@@ -19,6 +19,7 @@ La aplicación se realizó utilizando SDK 5.0 Lilipod.
 <br/> Los módulos necesarios para ejecutar el repositorio son:
 * implementation 'com.github.bumptech.glide:glide:4.11.0'
 * implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+* retrofit 2.9.0
 ### Clonación
 *
 Recomendamos utilizar Github Desktop debido a su fácil manejo a la hora de clonar repositorios. El presente repositorio contiene la carpeta de FrondEnd (FrondEndAPI) y la del BackEnd (ServerAPI), por tal motivo clonaremos el repositorio con las partes necesarias. Para ello:
