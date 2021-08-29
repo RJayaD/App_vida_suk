@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.App_vida_suk" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/verde</item>
+        <item name="colorPrimaryVariant">@color/orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Activity Splash -->
+        <item name="asBackground">@color/orange</item>
+        <item name="asSpinner">@color/orange</item>
+
+        <!-- Activity Welcome -->
+        <item name="awBackground">@color/base</item>
+        <item name="awLayoutRounded">@color/bg2</item>
+        <item name="awText">@color/txt1</item>
+        <item name="awText2">@color/txt3</item>
+        <item name="awButton">@color/btn3</item>
+
+        <!-- Activity Login, Register and Recover Password -->
+        <item name="alBackground">@color/btn3</item>
+        <item name="alLayoutRounded">@color/bg2</item>
+        <item name="alText">@color/txt1</item>
+        <item name="alText2">@color/txt3</item>
+        <item name="alText3">@color/txt4</item>
+        <item name="alButton">@color/orange</item>
+
+        <!-- Activity Dashboard and Others -->
+        <item name="amBackground">@color/orange</item>
+        <item name="amBackground2">@color/bg5</item>
+        <item name="amBackground3">@color/bg2</item>
+        <item name="amText">@color/txt3</item>
+        <item name="amText2">@color/txt3</item>
+        <item name="amText3">@color/txt2</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyOverflowButtonStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:tint">@color/txt3</item>
+    </style>
+
+
+    <style name="TextStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/txt1</item>
+    </style>
+    <style name="BottonNavigation">
+        <item name="background">@color/orange</item>
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextColor">@color/white</item>
+    </style>
+
+</resources>
